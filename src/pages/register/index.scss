@@ -1,0 +1,87 @@
+.Register {
+    height: 100vh;
+    background-color: #4169e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 60%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 500px;
+        overflow: hidden;
+        flex-direction: row-reverse;
+
+        .left {
+            background: linear-gradient(#4169e1cc, rgba(17, 17, 17, 0.76)), url(../../assets/karl-magnuson-HQR_JXd-fPs-unsplash.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            gap: 35px;
+
+            h1 {
+                font-size: 50px;
+                line-height: 55px;
+            }
+
+            p {
+                line-height: 24px;
+            }
+
+            span {}
+
+            button {
+                width: 50%;
+                padding: 7px 10px;
+                border: none;
+                border-radius: 5px;
+                background-color: white;
+                color: #1D202D;
+                font-weight: bold;
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input {
+                    padding: 10px 5px;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid lightgray;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 7px 10px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #4169e1;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
