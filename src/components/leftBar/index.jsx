@@ -3,7 +3,7 @@ import './index.scss'
 const LeftBar = () => {
   return (
     <div>
-      <h1>LeftBar</h1>
+      {/* <h1>LeftBar</h1> */}
     </div>
   )
 }

@@ -1,0 +1,111 @@
+.navbar {
+    width: 100%;
+    height: 62px;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .left {
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0px;
+
+        >svg {
+            color: #0165E1;
+            font-size: 40px;
+        }
+
+        .searchBar {
+            // border: 1px solid blue;
+            display: flex;
+            align-items: center;
+            width: 270px;
+            padding: 10px 12px;
+            border-radius: 20px;
+            background-color: rgb(238, 237, 237);
+
+            >svg {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #555;
+            }
+
+            input {
+                border: none;
+                outline: none;
+                background: transparent;
+            }
+        }
+    }
+
+    .middle {
+        // border: 1px solid blue;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .active {
+            border-bottom: 3px solid #0165E1;
+
+            >svg {
+                color: #0165E1;
+            }
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            // border: 1px solid red;
+            padding: 15px 0px;
+            // border-bottom: 1px solid blue;
+
+            svg {
+                font-size: 28px;
+                color: #555;
+            }
+        }
+
+    }
+
+    .right {
+        // border: 1px solid blue;
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+
+        span {
+            border-radius: 50%;
+            background-color: rgb(238, 237, 237);
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                font-size: 25px;
+                color: #020403;
+            }
+        }
+
+
+        img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+}
